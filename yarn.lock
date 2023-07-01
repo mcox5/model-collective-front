@@ -1186,6 +1186,16 @@
     "@babel/helper-validator-identifier" "^7.22.5"
     to-fast-properties "^2.0.0"
 
+"@expo-google-fonts/inter@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/inter/-/inter-0.2.3.tgz#82bf7224bb76fc6614a00393a9e9ee4d6dd09dcb"
+  integrity sha512-iHK9FI+dnE45X5c2Z5hSFwNH4zUWethizpbv3XUn0FIGw5jwvzriENz0a6wCdkI4/d+1QkurnHo5XHti7TbNJA==
+
+"@expo-google-fonts/jost@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/jost/-/jost-0.2.3.tgz#bcd5a72669a4f2eebb7c3fdb08af7a6a0d2eae13"
+  integrity sha512-KQfz/mlNMAPdLxz9ZtiItUND81U0mqGbd1pysKQicUuwd7ZlB1VI1aFiaQRajcYZ3tp7OTefCPDdSww0DSqi9A==
+
 "@expo/bunyan@4.0.0", "@expo/bunyan@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@expo/bunyan/-/bunyan-4.0.0.tgz#be0c1de943c7987a9fbd309ea0b1acd605890c7b"
@@ -4313,6 +4323,11 @@ join-component@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/join-component/-/join-component-1.1.0.tgz#b8417b750661a392bee2c2537c68b2a9d4977cd5"
   integrity sha512-bF7vcQxbODoGK1imE2P9GS9aw4zD0Sd+Hni68IMZLj7zRnquH7dXUmMw9hDI5S/Jzt7q+IyTXN0rSg2GI0IKhQ==
+
+jost@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/jost/-/jost-0.0.2.tgz#6038488451af296ccf6c0253466443db89ae1dcb"
+  integrity sha512-h2mgYF+Sxz+42GiMm5i2FQl4gejQ1WffwsMoKkwl6LBkSQLYI19H20n37Xlc9JhXRkzUUjp1yaouTn5F0P0ZcA==
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
