@@ -12,32 +12,6 @@ const HomeScreen = () => {
       headerShown: false,
     });
   }, []);
-
-  const [fontsLoaded] = useFonts({
-    'Jost-Regular': require('../assets/fonts/Jost-VariableFont_wght.ttf'),
-  });
-
-  const styles = StyleSheet.create({
-    background: {
-      backgroundColor: 'black',
-      flex: 1,
-    },
-    text: {
-      color: 'white',
-      fontFamily: 'Jost-Regular',
-      fontSize: 20,
-    },
-    userPhoto: {
-        width: 200,
-        height: 200,
-        borderRadius: 100, // La mitad del ancho/altura para hacer la imagen redon
-    },
-  });
-
-  if (!fontsLoaded) {
-    return null; // Opcional: Mostrar un componente de carga mientras se cargan las fuentes
-  }
-
   return (
     <SafeAreaView style={styles.background}>
       {/* Header */}
