@@ -8,7 +8,7 @@ const initialState = {
   user: null
 }
 
-export const navSlice = createSlice({
+export const homeSlice = createSlice({
   name: 'home',
   initialState,
   reducer: {
@@ -23,11 +23,11 @@ export const navSlice = createSlice({
 //We need to export the actions, because we want to use them in every part of our app
 
 //EXAMPLE:
-export const { setUser } = navSlice.actions;
+export const { setUser } = homeSlice.actions;
 
 
 //Selectors
 
 export const selectUser = (state) => state.home.user;
 
-export default navSlice.reducer;
+export default homeSlice.reducer;
