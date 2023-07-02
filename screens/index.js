@@ -16,7 +16,7 @@ const HomeScreen = () => {
     <SafeAreaView style={styles.background}>
       {/* Header */}
       <View style={{ flexDirection: 'row', justifyContent: 'space-between', padding: 10 }}>
-        <Text style={styles.text}>ModelCollective</Text>
+      <Text style={styles.texth1}>Model<Text style={styles.textTitle}>Collective</Text></Text>
         <Image
           source={{
             uri: 'https://media.licdn.com/dms/image/C4E03AQGrr5XIVb-XMg/profile-displayphoto-shrink_200_200/0/1647736688292?e=1693440000&v=beta&t=YxHc3i6nGWWIClKQZHqq18BPZd15BcNQzHjZwiYe778'
