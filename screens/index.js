@@ -15,7 +15,7 @@ const HomeScreen = () => {
   return (
     <SafeAreaView style={styles.background}>
       {/* Header */}
-      <View>
+      <View style={{ flexDirection: 'row', justifyContent: 'space-between', padding: 10 }}>
         <Text style={styles.text}>ModelCollective</Text>
         <Image
           source={{
