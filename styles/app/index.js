@@ -29,22 +29,33 @@ loadFonts().then(() => {
     color: 'white',
     fontFamily: 'Jost-Regular',
     fontSize: 20,
-    },
+  },
   styles.texth2 = {
     color: 'white',
     fontFamily: 'Jost-Regular',
     fontSize: 15,
-    },
+  },
   styles.texth3 =  {
     color: 'white',
     fontFamily: 'Jost-Regular',
     fontSize: 10,
-    },
+  },
   styles.textTitle = {
     color: '#f52f57',
     fontFamily: 'Jost-Regular',
     fontSize: 20,
-    }
+  },
+  styles.text = {
+    color: 'white',
+    fontFamily: 'Jost-Regular'
+  },
+  styles.textBold = {
+    color: 'white',
+    fontFamily: 'Jost-Bold',
+    fontWeight: '700'
+  }
+
+
   });
 // Llama a la función para cargar las fuentes antes de renderizar la aplicación
 
