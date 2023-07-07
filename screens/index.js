@@ -6,6 +6,7 @@ import Header from './HomeScreen/components/Header';
 import Welcome from './HomeScreen/components/Welcome';
 import RecentlyAdded from './HomeScreen/components/RecentlyAdded';
 import BestRated from './HomeScreen/components/BestRated';
+import ModelsWorks from './HomeScreen/components/ModelsWorks';
 
 
 const HomeScreen = () => {
@@ -23,7 +24,8 @@ const HomeScreen = () => {
           <Header/>
           <Welcome/>
           <RecentlyAdded/>
-          <BestRated />
+          <BestRated/>
+          <ModelsWorks/>
       </ScrollView>
     </SafeAreaView>
   );
