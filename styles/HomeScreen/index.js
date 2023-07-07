@@ -16,6 +16,7 @@ homeScreenStyles = StyleSheet.create({
     alignItems: 'center',
     marginTop: 120
   },
+
 })
 
 export default homeScreenStyles

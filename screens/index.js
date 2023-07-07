@@ -4,6 +4,8 @@ import { useNavigation } from '@react-navigation/native';
 import styles from "../styles/app";
 import Header from './HomeScreen/components/Header';
 import Welcome from './HomeScreen/components/Welcome';
+import RecentlyAdded from './HomeScreen/components/RecentlyAdded';
+
 
 const HomeScreen = () => {
   const navigation = useNavigation();
@@ -18,6 +20,7 @@ const HomeScreen = () => {
       {/* Header */}
       <Header/>
       <Welcome/>
+      <RecentlyAdded/>
     </SafeAreaView>
   );
 };
